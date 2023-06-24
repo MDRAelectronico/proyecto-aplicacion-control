@@ -401,7 +401,13 @@ aside.right li a::before {
   display: inline-block;
   margin-right: 10px; /* Ajusta el margen según sea necesario */
 }
-
+  .image-with-text {
+    display: flex;
+    align-items: flex-start;
+  }
+  .image-with-text img {
+    margin-right: 20px;
+  }
 .imagen-footer {
   width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
   height: auto; /* Permite que la altura se ajuste proporcionalmente */
